@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 from gen_predict import gen_prediction
 
-token = "5785839066:AAH1hMPdwW52bzSRQPo4vLV-f3iDvFmu_ZY"
+token = "token"
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start'])
